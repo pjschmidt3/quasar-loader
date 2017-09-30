@@ -1,0 +1,13 @@
+{
+  presets: [
+    {
+      plugins: [
+        "transform-runtime",
+        "transform-class-properties",
+        "transform-object-rest-spread"
+      ]
+    },
+    "es2015",
+    "stage-0"
+  ]
+}
